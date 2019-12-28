@@ -1,0 +1,87 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'untitled.ui'
+#
+# Created by: PyQt5 UI code generator 5.12
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtWidgets
+
+
+class Windows_Ui(object):
+    def setupUi(self, Form):
+        self.pushButton_2 = QtWidgets.QPushButton(Form)
+        self.pushButton_2.setGeometry(QtCore.QRect(380, 240, 91, 31))
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_3 = QtWidgets.QPushButton(Form)
+        self.pushButton_3.setGeometry(QtCore.QRect(580, 40, 141, 51))
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.widget = QtWidgets.QWidget(Form)
+        self.widget.setGeometry(QtCore.QRect(20, 240, 261, 25))
+        self.widget.setObjectName("widget")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.widget)
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.comboBox = QtWidgets.QComboBox(self.widget)
+        self.comboBox.setObjectName("comboBox")
+        self.horizontalLayout.addWidget(self.comboBox)
+        self.pushButton = QtWidgets.QPushButton(self.widget)
+        self.pushButton.setObjectName("pushButton")
+        self.horizontalLayout.addWidget(self.pushButton)
+        self.comboBox_2 = QtWidgets.QComboBox(self.widget)
+        self.comboBox_2.setObjectName("comboBox_2")
+        self.horizontalLayout.addWidget(self.comboBox_2)
+        self.widget1 = QtWidgets.QWidget(Form)
+        self.widget1.setGeometry(QtCore.QRect(580, 240, 141, 22))
+        self.widget1.setObjectName("widget1")
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.widget1)
+        self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        self.label = QtWidgets.QLabel(self.widget1)
+        self.label.setObjectName("label")
+        self.horizontalLayout_2.addWidget(self.label, 0, QtCore.Qt.AlignRight)
+        self.comboBox_3 = QtWidgets.QComboBox(self.widget1)
+        self.comboBox_3.setObjectName("comboBox_3")
+        self.horizontalLayout_2.addWidget(self.comboBox_3)
+        self.widget2 = QtWidgets.QWidget(Form)
+        self.widget2.setGeometry(QtCore.QRect(580, 280, 141, 22))
+        self.widget2.setObjectName("widget2")
+        self.horizontalLayout_3 = QtWidgets.QHBoxLayout(self.widget2)
+        self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_3.setObjectName("horizontalLayout_3")
+        self.label_2 = QtWidgets.QLabel(self.widget2)
+        self.label_2.setObjectName("label_2")
+        self.horizontalLayout_3.addWidget(self.label_2, 0, QtCore.Qt.AlignRight)
+        self.comboBox_4 = QtWidgets.QComboBox(self.widget2)
+        self.comboBox_4.setObjectName("comboBox_4")
+        self.horizontalLayout_3.addWidget(self.comboBox_4)
+        self.widget3 = QtWidgets.QWidget(Form)
+        self.widget3.setGeometry(QtCore.QRect(580, 101, 141, 22))
+        self.widget3.setObjectName("widget3")
+        self.horizontalLayout_4 = QtWidgets.QHBoxLayout(self.widget3)
+        self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_4.setObjectName("horizontalLayout_4")
+        self.label_3 = QtWidgets.QLabel(self.widget3)
+        self.label_3.setObjectName("label_3")
+        self.horizontalLayout_4.addWidget(self.label_3, 0, QtCore.Qt.AlignRight)
+        self.lineEdit = QtWidgets.QLineEdit(self.widget3)
+        self.lineEdit.setObjectName("lineEdit")
+        self.horizontalLayout_4.addWidget(self.lineEdit)
+        self.textBrowser_2 = QtWidgets.QTextBrowser(Form)
+        self.textBrowser_2.setGeometry(QtCore.QRect(20, 280, 520, 192))
+        self.textBrowser_2.setObjectName("textBrowser_2")
+        self.textEdit = QtWidgets.QTextEdit(Form)
+        self.textEdit.setGeometry(QtCore.QRect(20, 40, 520, 192))
+        self.textEdit.setObjectName("textEdit")
+
+        self.retranslateUi()
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self):
+        self.pushButton_2.setText("翻译")
+        self.pushButton_3.setText("截图")
+        self.pushButton.setText("PushButton")
+        self.label.setText("O C R 源：")
+        self.label_2.setText("语言类型：")
+        self.label_3.setText(" 快 捷 键：")
